@@ -1,7 +1,5 @@
 def addition(num1, num2)
-  num1.to_i nun2.to_i
-  var adds = (num1 += num2)
-  puts add
+  num1+num2
 end
 
 def subtraction(num1, num2)
