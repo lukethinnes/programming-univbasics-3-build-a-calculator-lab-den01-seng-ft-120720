@@ -1,6 +1,6 @@
 def addition(num1, num2)
   num1.to_i nun2.to_i
-  var adds = num1 += num2
+  var adds = (num1 += num2)
   puts add
 end
 
@@ -20,7 +20,7 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
-  var mod = num1 %= num2
+  var mod = (num1 %= num2)
   puts mod
 end
 
