@@ -3,26 +3,21 @@ def addition(num1, num2)
 end
 
 def subtraction(num1, num2)
-  var sub = num1 -= num2
-  puts sub
+  num1-num2
 end
 
 def division(num1, num2)
-  var divide = num1 /= num2
-  puts divide
+  num1/num2
 end
 
 def multiplication(num1, num2)
-  var times = num1 *= num2
-  puts times
+  num1*=num2
 end
 
 def modulo(num1, num2)
-  var mod = (num1 %= num2)
-  puts mod
+num1%num2
 end
 
 def square_root(num)
-  var sqrt = Math.sqrt(num)
-  puts sqrt
+  Math.sqrt(num)
 end
